@@ -246,8 +246,6 @@ Milestones are marked complete only when their implementation and supporting evi
 
 ## References, Attribution, and Ownership
 
-This is a tutorial-guided learning project informed by the **Hoff Industries “SillyScope” reference design** and its design/prototyping material. The supplied reference schematic carries Hoff Industries attribution. Original reference material will remain credited, and my implementation notes will distinguish reproduced concepts, adapted code, and independently developed work.
-
 My focus is the hands-on process of configuring the STM32, developing and understanding the C firmware, integrating the prototype, investigating failures, and validating behavior. Specific changes and independently implemented features will be described alongside their source and test evidence as development progresses.
 
 | Reference | Citation status |
