@@ -244,15 +244,12 @@ Debugging examples will record the symptom, hypothesis, measurement, root cause,
 
 Milestones are marked complete only when their implementation and supporting evidence are available. Custom PCB fabrication is outside the planned completion criteria.
 
-## References, Attribution, and Ownership
+## References
 
 My focus is the hands-on process of configuring the STM32, developing and understanding the C firmware, integrating the prototype, investigating failures, and validating behavior. Specific changes and independently implemented features will be described alongside their source and test evidence as development progresses.
 
-| Reference | Citation status |
 | NUCLEO-L432KC board documentation | Exact document revision/link to be added |
 | STM32L432 device datasheet and reference manual | Revisions used during implementation to be recorded |
 | LCD module and ST75256 controller documentation | Exact module documentation/revision to be added |
 | Reused libraries or driver code | Source, modifications, and license notices to accompany the code |
-
-**Licensing:** A license for original project material will be added after reviewing the permissions and licenses of included reference assets and dependencies. Third-party notices will be preserved.
 
