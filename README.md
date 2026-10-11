@@ -4,7 +4,7 @@
 
 **Author:** Aaruni Singh · Electrical Engineering, Purdue University  
 **Platform:** STM32 NUCLEO-L432KC  
-**Status:** In development — prototype integration and performance validation are ongoing.
+**Status:** In development
 
 ## Overview
 
