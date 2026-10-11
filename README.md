@@ -2,7 +2,6 @@
 
 **A two-channel oscilloscope project exploring embedded C, STM32 peripheral configuration, SPI display communication, and hardware prototyping.**
 
-**Author:** Aaruni Singh · Electrical Engineering, Purdue University  
 **Platform:** STM32 NUCLEO-L432KC  
 **Status:** In development
 
