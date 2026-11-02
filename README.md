@@ -7,11 +7,11 @@
 
 ## Overview
 
-I am developing an STM32-based oscilloscope to build practical experience taking an embedded system from requirements and schematic planning to firmware implementation and a working development-board prototype. The intended system acquires two analog input channels, displays one selected channel on a graphical LCD, and supports user controls and data recording to a PC.
+Developing an STM32-based oscilloscope to build practical experience taking an embedded system from requirements and schematic planning to firmware implementation and a working development-board prototype. The intended system acquires two analog input channels, displays one selected channel on a graphical LCD, and supports user controls and data recording to a PC.
 
 My focus is understanding how the system works across hardware and software: how an analog signal becomes a digital sample, how firmware schedules acquisition and display updates, how the MCU communicates with external devices, and how measurements can verify that the implementation behaves as intended.
 
-The final project deliverable is a **Nucleo-based prototype**. A proposed standalone MCU schematic and bill of materials support my study of the circuitry required to move beyond a development board. PCB layout, fabrication, assembly, and validation of a custom board are outside this project's scope.
+The final project deliverable is a **Nucleo-based prototype**. A proposed standalone MCU schematic and bill of materials support my study of the circuitry required to move beyond a development board.
 
 > **Development status:** Features below describe the intended implementation unless explicitly supported by measured results. Demo media, final configuration values, and validation data will be added as the prototype reaches those milestones.
 
