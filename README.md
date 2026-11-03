@@ -52,13 +52,13 @@ ADC triggering, polling/interrupt/DMA use, buffer sizes, and PC transport will b
 
 | Folder | Contents |
 | --- | --- |
-| `firmware/` | C source, CubeMX configuration, and build files |
-| `hardware/` | Prototype wiring, standalone schematic, and separate BOMs |
-| `docs/` | Requirements, architecture, interfaces, and operating instructions |
-| `tests/` | Test procedures, results, and measurement captures |
-| `tools/` | Host-side logging or plotting utilities |
-| `data/examples/` | Sample recordings |
-| `media/` | Photos, screenshots, and demonstrations |
+| `Firmware/` | C source, CubeMX configuration, and build files |
+| `Hardware/` | Prototype wiring, standalone schematic, and separate BOMs |
+| `Docs/` | Requirements, architecture, interfaces, and operating instructions |
+| `Tests/` | Test procedures, results, and measurement captures |
+| `Tools/` | Host-side logging or plotting utilities |
+| `Data/examples/` | Sample recordings |
+| `Media/` | Photos, screenshots, and demonstrations |
 
 ## Validation and Next Steps
 
