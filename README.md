@@ -56,8 +56,6 @@ ADC triggering, polling/interrupt/DMA use, buffer sizes, and PC transport will b
 | `Docs/` | Requirements, architecture, interfaces, and operating instructions |
 | `Tests/` | Test procedures, results, and measurement captures |
 | `Tools/` | Host-side logging or plotting utilities |
-| `Data/examples/` | Sample recordings |
-| `Media/` | Photos, screenshots, and demonstrations |
 
 ## Validation and Next Steps
 
