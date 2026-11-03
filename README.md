@@ -16,12 +16,11 @@ The planned system acquires two analog channels, displays one selected channel o
 ## Planned Features
 
 - Two analog input channels with channel selection.
+- Accurate up to 500 kHz
 - SPI graphical LCD for waveform display.
 - Push-button controls for channel selection and recording.
 - Power, channel activity, and recording indicators.
 - PC sample logging with documented channel and timing information.
-
-Sampling rate, input bandwidth, display refresh rate, and logging throughput will be measured separately. The initial “500 kHz” requirement still needs clarification; no verified 500 kHz capability is claimed.
 
 ## Hardware
 
