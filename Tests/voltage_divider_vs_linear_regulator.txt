@@ -1,21 +1,29 @@
-Voltage Divider vs. Linear Regulator: Power Rail Demonstration
+## Voltage Divider vs. Linear Regulator: Power Rail Demonstration
 
-In the first demo, my voltage divider measured approximately 3.3 V with the power rail disconnected. After I connected it to the circuit's power rail, the voltage dropped to approximately 1.7 V. In the second demo, a 3.3 V linear regulator maintained approximately 3.3 V with the rail connected.
+In the first demo, my voltage divider measured approximately 3.3 V with the power rail disconnected. 
+After I connected it to the circuit's power rail, the voltage dropped to approximately 1.7 V. In the 
+second demo, a 3.3 V linear regulator maintained approximately 3.3 V with the rail connected.
 
-Why the divider voltage dropped
 
+//Why the divider voltage dropped
 A voltage divider uses two resistors to produce a fraction of its input voltage. With no significant load attached, its output is:
 
 Vout = Vin * R2 / (R1 + R2)
 
-R1 connects from the input supply to the output junction, and R2 connects from that junction to ground. A multimeter draws very little current, so measuring the disconnected output barely changes the divider's behavior.
+R1 connects from the input supply to the output junction, and R2 connects from that junction to ground. 
+A multimeter draws very little current, so measuring the disconnected output barely changes the divider's behavior.
 
-Connecting the power rail adds a load that draws current from the junction. For a resistive load, this is equivalent to placing another resistance in parallel with R2. The effective lower resistance decreases, changing the divider ratio and lowering the output voltage. Active components can draw changing amounts of current, so the rail voltage can also vary as the circuit operates.
+Connecting the power rail adds a load that draws current from the junction. For a resistive load, this is equivalent 
+to placing another resistance in parallel with R2. The effective lower resistance decreases, changing the divider 
+ratio and lowering the output voltage. Active components can draw changing amounts of current, so the rail voltage 
+can also vary as the circuit operates.
 
-The drop from 3.3 V to 1.7 V demonstrates this loading effect. It is not a fixed rule that connecting a load halves the voltage: the amount of drop depends on the resistor values, supply voltage, and load current. The exact cause cannot be calculated from these two voltage readings alone.
+The drop from 3.3 V to 1.7 V demonstrates this loading effect. It is not a fixed rule that connecting a load halves 
+the voltage: the amount of drop depends on the resistor values, supply voltage, and load current. The exact cause 
+cannot be calculated from these two voltage readings alone.
+
 
 Why the linear regulator worked better
-
 A linear regulator uses feedback to compare its output with an internal reference and adjust a pass transistor. This lets it supply changing load current while keeping the output close to 3.3 V, provided its input voltage, current, and temperature remain within operating limits.
 
 In my regulator demo, the rail remained at approximately 3.3 V under the connected load. This makes the regulator more suitable for powering the MCU, display, and other active components, which need a stable supply as their current demand changes. The demo verifies operation under that tested load; it does not establish the maximum current the supply can deliver.
