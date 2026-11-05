@@ -43,7 +43,7 @@ Firmware development focuses on:
 
 ADC triggering, polling/interrupt/DMA use, buffer sizes, and PC transport will be documented with the tested implementation.
 
-**Tools:** Embedded C, STM32CubeMX, STM32 development/debug tools, and logic-analyzer measurements.
+**Tools:** Embedded C, STM32CubeMX, STM32 development/debug tools.
 
 ## Planned Repository Structure
 
@@ -66,4 +66,3 @@ ADC triggering, polling/interrupt/DMA use, buffer sizes, and PC transport will b
 - [ ] Test concurrent operation, buffer handling, and sample loss.
 - [ ] Publish build instructions, results, and a demonstration.
 
-Hardware references, tool versions, and third-party code attribution will accompany the implementation.
