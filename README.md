@@ -11,8 +11,6 @@ This project explores the full embedded development process, from schematic plan
 
 The planned system acquires two analog channels, displays one selected channel on a graphical LCD, and records samples to a PC. The final deliverable is a **Nucleo-based prototype**, supported by a standalone MCU schematic and BOM as a design study.
 
-> Features below are planned or under development. Performance measurements and demonstrations are pending validation.
-
 ## Planned Features
 
 - Two analog input channels with channel selection.
